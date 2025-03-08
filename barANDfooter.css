@@ -1,0 +1,103 @@
+body {
+  background-color: #e1dfdc;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  background-color: #ebe3d9;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 100px; /* 根据需要调整 */
+  height: auto;
+  margin: auto;
+  margin-top: -5px;
+}
+
+.logo-text {
+  font-family: 'Shrikhand', serif;
+  color: #3a2e29;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.logo-text:hover{
+  color: #7b6657;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3a2e29;
+  font-family: 'Bitter', serif;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+nav a:link {    /* non-visited link */
+  color: #2e221d;
+}
+
+nav a:hover{
+  color: #7b6657;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 5px;
+  background-color: #ebe3d9; 
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2); /* 上方阴影 */
+}
+
+.footerlogo {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.footer-text {
+  font-family: 'Shrikhand', cursive; /* 设置字体 */
+  color: #7b6657; /* 字体颜色 */
+  font-size: 50px ;
+  margin: 0;
+  text-decoration: none;
+}
+
+.footer-text:hover {
+  color: #3a2e29;
+}
+
+.AF{
+color: #7b6657;
+font-family: 'Bitter', serif;
+margin-right: 40px;
+}
+
+.AF-text{
+font-family: 'Bitter', serif;
+text-decoration: none;
+color: #7b6657;
+text-align: center;
+font-weight: bolder;
+font-size: 25px;
+}
+
+.AF-text:hover {
+  color: #3a2e29;
+}

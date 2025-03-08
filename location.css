@@ -1,0 +1,42 @@
+.centered-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    object-fit: cover;
+}
+
+.location-container h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    font-family: 'Shrikhand', cursive; 
+    color: #6b4d3a; 
+    font-size: 40px;
+    margin-bottom: 10px;  
+}
+
+.virtual-tour-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.virtual-tour-wrapper iframe {
+    width: 80%;
+    height: 500px;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.virtual-tour-credit {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,163 @@
+
+
+h1 {
+    font-size: 50px;
+    font-family: 'Shrikhand', cursive;
+    color: #7b6657; 
+    text-align: center;
+    border-style: double;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+
+.transparent-background {
+    position: relative;
+    background-image: url(event/christmas-bg.jpg);
+    background-size: cover;
+    z-index: 1; /* Ensures text stays on top */
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+p {
+    font-size: 40px;
+    font-family: fantasy;
+    color: #7b6657;
+    text-align: center;
+}
+
+h4 {
+    color: #7B481C;
+    font-family: 'Bitter', serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+h5 {
+    color: black;
+    font-family: 'Bitter', serif;
+    font-size: medium;
+    margin-top: -20px;
+}
+
+.video-and-coffee-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; /* Align items to the left */
+    gap: 215px; /* Reduced gap between video and coffee content */
+    margin: 20px; /* Optional: Adjust overall margins */
+}
+
+.video-container {
+    flex: 0 0 25%;
+}
+
+.video-container video {
+    width: 130%; /* Makes the video responsive */
+    aspect-ratio: 9 / 16; /* Ensures a rectangular shape */
+    border: 2px solid #7b6657;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+/* Coffee Section */
+.coffee-content {
+    flex: 1; /* Coffee content takes the remaining space */
+    display: flex;
+    flex-direction: column; /* Arrange rows vertically */
+    gap: 50px; /* Space between rows */
+}
+
+.logo_img {
+    width: 45px;
+    margin-top: -50px;
+}
+
+/* Container for both dessert and video */
+.content-container {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+/* Dessert Section */
+.dessert-section {
+    flex: 1; /* Dessert takes the remaining space */
+}
+
+.christmas,.hlwbox,.birthdaybox {
+    margin-left: 50px;
+}
+
+.halloween {
+    background-image: url(event/hlw-bg.jpg);
+}
+
+.birthday {
+    background-image: url(event/birthday-bg.jpg);
+}
+
+.imgflex {
+    display: flex;
+    gap: 100px; 
+    justify-content: left;
+    margin-top: -30px;
+    padding: 40px 0;
+}
+  
+.imgbox {
+    text-align: center;
+    width: 200px; /* Smaller box width */
+    height: 200px; /* Add height for a consistent box size */
+}
+
+.imgbox img {
+    width: 100%; /* Ensure the image fits within the box */
+    height: 100%; /* Ensure the image fits within the box */
+    border-radius:10%; /* Keep the image circular (proportional to the smaller box) */
+}
+
+.buttonflex {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+  
+.button {
+    background-color: #7a5c40; /* Darker brown */
+    color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor:pointer;
+    transition:  transform 0.3s ease, background-color 0.3s ease;    
+}
+
+.button:hover{
+    transform: scale(1.1);
+    background-color: #583e26;
+    color: #ecc3c2;
+}
+
+.button:active{
+    transform: scale(1.3);
+}
+
+.special-menu {
+    margin-bottom: -60px;
+}
+
+strong {
+    color: red;
+}

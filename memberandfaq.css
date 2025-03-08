@@ -1,0 +1,228 @@
+/* member */
+
+.member-main {
+    font-family: 'Bitter', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    margin: 0;
+    background-image: url('image/cafeshopbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.registration-container {
+    background-color: #efe1ca;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.registration-form h2 {
+    font-family: 'Shrikhand', cursive; 
+    font-size: 35px;
+    text-align: center;
+    color: #7b6657;;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #7b6657;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color:  #977453;
+    box-shadow: 0 0 5px  #7a5c40;
+}
+
+.form-group a {
+    text-decoration: none;
+    color: white;
+}
+
+.buttonflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #a46f3d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;    
+}
+
+button:hover {
+    background-color: #583e26;    
+}
+
+.form-group.gender {
+    display: flex;
+    align-items: center;
+}
+
+.form-group.gender label {
+    margin-right: 15px;
+}
+
+.form-group.gender input {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* faq */
+
+.faq-main {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    text-align: left;  
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Shrikhand', cursive; 
+    color: #564336; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.question-table {
+    color: #ac4215;
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    border: 3px solid black;
+    border-collapse: separate;
+    border-spacing: 20px;
+    background: linear-gradient(90deg, rgba(36,19,0,1) 0%, rgba(222,126,56,1) 50%, rgba(217,160,5,1) 100%);
+    border-color: #362518;   
+}
+
+.question-card {
+    border: 2px solid #5a5a5a;
+    padding: 20px;
+    background-color: #fdf5e6;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    vertical-align: top; /* Aligns the text at the top of the cell */
+    height:auto;
+    width: 50%;
+}
+
+.faq-q {   
+    color: #362518 ;
+    font-size: 1.2em ;
+    margin-bottom: 10px;  
+}  
+
+.faq-a {
+    line-height: 1.6;   
+}
+
+td a {
+    color: #ac4215;  
+}
+
+td a:hover {
+    color: #ecc3c2;  
+}
+
+.follow-flex {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.grabfood:hover {
+    transform: scale(1.1);
+}
+
+.grabfood:active {
+    transform: scale(1.3);
+}
+
+.foodpanda:hover {
+    transform: scale(1.1);
+}
+
+.foodpanda:active {
+    transform: scale(1.3);
+}
+
+.shopeefood:hover {
+    transform: scale(1.1);
+}
+
+.shopeefood:active {
+    transform: scale(1.3);
+}
+  
+.follow-flex img {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.faq-buttonflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.button {
+    background-color: #7a5c40; /* Darker brown */
+    color: white;
+    padding: 20px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;   
+    cursor: pointer;  
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #583e26;
+    
+}
+
+.button:active {
+    transform: scale(1.3);
+}
