@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e1dfdc;
+}
+
+.eventbuttonflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.eventbutton {
+    background-color: #ffffff; /* Darker brown */
+    color: rgb(255, 140, 108);
+    padding: 20px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main{
+    background-color: #e1dfdc;
+}
+
+main p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3a2e29;
+}
+
+main h1{
+    text-align: center;  
+    font-family: 'Shrikhand', serif;
+    color: #3a2e29;
+    font-size: 50px;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    font-family: 'Shrikhand', serif;
+    color: #3a2e29;
+    background-color: #ebe3d9;
+    
+}
+main h3{
+    text-align: center;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3a2e29;
+}
+.Event{
+    color: #3a2e29;
+    font-weight: bold;
+}
+
+.Specialevent{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: rgb(200, 253, 200);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(background/event.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Christmas{
+    float: left;
+    text-align: center;
+    padding-left: 9em;
+
+}
+
+.Halloween{
+    float: right;
+    text-align: center;
+    padding-right: 11em;
+
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: fit-content;
+}
+
+.image-container img{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.button{
+    position: absolute;
+    background-color: #ffffff; /* Darker brown */
+    color: rgb(255, 140, 108);
+    padding: 20px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 2em;
+    margin-top: 20em;
+}
+
+ul{
+    text-align:center;
+}
+
